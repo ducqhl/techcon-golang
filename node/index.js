@@ -5,7 +5,7 @@ const readFileController = require('./read-file')
 const nthPrimeController = require('./nthprime')
 
 const handler = (req, res) => {
-    console.log(`${new Date()} - ${req.method} - ${req.url}`)
+    console.log(`${new Date().toLocaleTimeString()} - ${req.method} - ${req.url}`)
 
     res.writeHead(200, { 'Content-Type': 'text/html' });
 
@@ -25,6 +25,10 @@ const handler = (req, res) => {
         return nthPrimeController(req, res);
     }
 
+    if(req.url.startsWith("/sort")){
+        return sortController(req, res);
+    }
+    
     res.write('hit success');
     res.end();
 };
