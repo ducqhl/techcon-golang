@@ -1,4 +1,5 @@
 const http = require('http');
+const hitMeController = require('./hitme')
 const fibonanceController = require('./fibonance')
 const readFileController = require('./read-file')
 const nthPrimeController = require('./nthprime')
@@ -7,6 +8,10 @@ const handler = (req, res) => {
     console.log(`${new Date()} - ${req.method} - ${req.url}`)
 
     res.writeHead(200, { 'Content-Type': 'text/html' });
+
+    if(req.url.startsWith("/hitme")){
+        return hitMeController(req, res);
+    }
 
     if(req.url.startsWith("/fibonance")){
         return fibonanceController(req, res);
