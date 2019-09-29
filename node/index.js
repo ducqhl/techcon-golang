@@ -1,11 +1,11 @@
 const http = require('http');
 const hitMeController = require('./hitme')
-const fibonanceController = require('./fibonance')
+const fibonacciController = require('./fibonacci')
 const readFileController = require('./read-file')
-const nthPrimeController = require('./nthprime')
+const sortController = require('./sort')
 
 const handler = (req, res) => {
-    console.log(`${new Date().toLocaleTimeString()} - ${req.method} - ${req.url}`)
+    console.log(`Node: ${new Date().toLocaleTimeString()} - ${req.method} - ${req.url}`)
 
     res.writeHead(200, { 'Content-Type': 'text/html' });
 
@@ -13,16 +13,12 @@ const handler = (req, res) => {
         return hitMeController(req, res);
     }
 
-    if(req.url.startsWith("/fibonance")){
-        return fibonanceController(req, res);
+    if(req.url.startsWith("/fibonacci")){
+        return fibonacciController(req, res);
     }
 
     if(req.url.startsWith("/readfile")){
         return readFileController(req, res);
-    }
-
-    if(req.url.startsWith("/nthprime")){
-        return nthPrimeController(req, res);
     }
 
     if(req.url.startsWith("/sort")){

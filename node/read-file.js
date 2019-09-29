@@ -9,8 +9,7 @@ const readFileController = (req, res) => {
 
     filePath = path.join(__dirname, `../data/${quota}.txt`);
 
-    console.log(filePath);
-    fs.readFile(filePath, (err, _) => {
+    fs.readFile(filePath, (err, data) => {
         if (err) {
             console.log(err);
             res.writeHead(500, { 'Content-Type': 'text/html' });
@@ -18,7 +17,7 @@ const readFileController = (req, res) => {
             res.end();
         } else {
             res.writeHead(200, { 'Content-Type': 'text/html' });
-            res.write('Read Success');
+            res.write('Read Success: ' + data.length);
             res.end();
         }
     });

@@ -2,8 +2,8 @@ config:
   target: 'http://localhost:8081'
   phases:
     - duration: 60
-      arrivalRate: 2
+      arrivalRate: 20
 scenarios:
   - flow:
     - get:
-        url: "/fibonance?n=10000000000"
+        url: "/fibonance?n=70"
