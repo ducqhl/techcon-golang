@@ -6,4 +6,4 @@ config:
 scenarios:
   - flow:
     - get:
-        url: "/readfile?n=N100MB"
+        url: "/readfile?n=100MB"
