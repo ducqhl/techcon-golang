@@ -11,10 +11,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/fibonance?n=1000",
+					"raw": "http://13.52.177.151:8080/fibonance?n=1000",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"13.52.177.151"
 					],
 					"port": "8080",
 					"path": [
@@ -36,10 +36,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8081/fibonance?n=1000",
+					"raw": "http://13.52.177.151:8081/fibonance?n=1000",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"13.52.177.151"
 					],
 					"port": "8081",
 					"path": [
@@ -61,10 +61,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/readfile?n=500KB",
+					"raw": "http://13.52.177.151:8080/readfile?n=500KB",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"13.52.177.151"
 					],
 					"port": "8080",
 					"path": [
@@ -86,10 +86,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/readfile",
+					"raw": "http://13.52.177.151:8080/readfile",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"13.52.177.151"
 					],
 					"port": "8080",
 					"path": [
@@ -105,10 +105,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8081/nthprime?n=10000",
+					"raw": "http://13.52.177.151:8081/nthprime?n=10000",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"13.52.177.151"
 					],
 					"port": "8081",
 					"path": [
@@ -130,10 +130,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/nthprime?n=10000",
+					"raw": "http://13.52.177.151:8080/nthprime?n=10000",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"13.52.177.151"
 					],
 					"port": "8080",
 					"path": [
@@ -155,10 +155,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/hitme",
+					"raw": "http://13.52.177.151:8080/hitme",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"13.52.177.151"
 					],
 					"port": "8080",
 					"path": [
