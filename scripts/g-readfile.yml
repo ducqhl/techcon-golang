@@ -2,8 +2,8 @@ config:
   target: 'http://localhost:8081'
   phases:
     - duration: 60
-      arrivalRate: 10
+      arrivalRate: 5
 scenarios:
   - flow:
     - get:
-        url: "/readfile?n=100MB"
+        url: "/readfile?n=G100MB"

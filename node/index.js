@@ -3,6 +3,7 @@ const hitMeController = require('./hitme')
 const fibonacciController = require('./fibonacci')
 const readFileController = require('./read-file')
 const sortController = require('./sort')
+const whileTrueController = require('./whiletrue')
 
 const handler = (req, res) => {
     console.log(`Node: ${new Date().toLocaleTimeString()} - ${req.method} - ${req.url}`)
@@ -23,6 +24,10 @@ const handler = (req, res) => {
 
     if(req.url.startsWith("/sort")){
         return sortController(req, res);
+    }
+
+    if(req.url.startsWith("/whiletrue")){
+        return whileTrueController(req, res);
     }
     
     res.write('hit success');

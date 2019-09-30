@@ -1,0 +1,22 @@
+{
+  "name": "techcon-golang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kitokip/techcon-golang.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kitokip/techcon-golang/issues"
+  },
+  "homepage": "https://github.com/kitokip/techcon-golang#readme",
+  "dependencies": {
+    "artillery": "^1.6.0-29"
+  }
+}
