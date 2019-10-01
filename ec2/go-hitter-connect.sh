@@ -1,0 +1,1 @@
+ssh -i "ducqhle-ec2-key-pair.pem" ec2-user@ec2-54-193-118-56.us-west-1.compute.amazonaws.com
