@@ -1,9 +1,0 @@
-config:
-  target: 'http://{{ $processEnvironment.HOST }}:8080'
-  phases:
-    - duration: 60
-      arrivalRate: 20
-scenarios:
-  - flow:
-    - get:
-        url: "/fibonance?n=70"
