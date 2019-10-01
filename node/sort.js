@@ -15,7 +15,7 @@ const sortController = (req, res) => {
 
     var array = [3, 4, 1, 3, 5, 1, 92, 2, 4124, 424, 52, 12];
 
-    for (var c = 0; c < 10000000; c++) {
+    for (var c = 0; c < 1000000; c++) {
         bubbleSort(array);
     }
 
