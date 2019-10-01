@@ -1,2 +1,2 @@
 #!/bin/bash
-artillery run /root/techcon-golang/scripts/config/g-hitme.yml -o hitme.results.json
+artillery run /root/techcon-golang/scripts/config/g-hitme.yml -o /root/hitme.results.json
