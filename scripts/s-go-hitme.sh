@@ -1,0 +1,10 @@
+artillery run /root/techcon-golang/scripts/config/g-hitme.yml -o /root/hitme.results.1.json && sleep 5
+artillery run /root/techcon-golang/scripts/config/g-hitme.yml -o /root/hitme.results.2.json && sleep 5
+artillery run /root/techcon-golang/scripts/config/g-hitme.yml -o /root/hitme.results.3.json && sleep 5
+artillery run /root/techcon-golang/scripts/config/g-hitme.yml -o /root/hitme.results.4.json && sleep 5
+artillery run /root/techcon-golang/scripts/config/g-hitme.yml -o /root/hitme.results.5.json && sleep 5
+artillery run /root/techcon-golang/scripts/config/g-hitme.yml -o /root/hitme.results.6.json && sleep 5
+artillery run /root/techcon-golang/scripts/config/g-hitme.yml -o /root/hitme.results.7.json && sleep 5
+artillery run /root/techcon-golang/scripts/config/g-hitme.yml -o /root/hitme.results.8.json && sleep 5
+artillery run /root/techcon-golang/scripts/config/g-hitme.yml -o /root/hitme.results.9.json && sleep 5
+artillery run /root/techcon-golang/scripts/config/g-hitme.yml -o /root/hitme.results.10.json && sleep 5
