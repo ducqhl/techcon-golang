@@ -93,3 +93,10 @@ Go
 ```
 http://13.57.202.201/g-hitme.html
 ```
+
+
+
+### Statistic
+```bash
+artillery run /root/techcon-golang/scripts/config/n-hitme.yml -o /root/readfile.results.json
+```
