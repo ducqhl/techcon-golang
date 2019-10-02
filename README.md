@@ -34,6 +34,11 @@ Go
 export HOST="54.67.39.43"
 ```
 
+### Config HTTPD
+```
+systemctl start httpd.service && systemctl enable httpd.service
+```
+
 ### Run NodeJS server
 ```bash
 node /root/techcon-golang/node/index.js
@@ -79,10 +84,6 @@ artillery run /root/techcon-golang/scripts/config/g-readfile.yml -o /root/readfi
 ```
 
 ### View Report
-```
-systemctl start httpd.service && systemctl enable httpd.service
-```
-
 NodeJS
 ```
 http://13.52.100.250/n-hitme.html
@@ -90,5 +91,5 @@ http://13.52.100.250/n-hitme.html
 
 Go
 ```
-http://13.57.202.201/n-hitme.html
+http://13.57.202.201/g-hitme.html
 ```
