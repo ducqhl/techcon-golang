@@ -3,48 +3,37 @@ config:
     phases:
         - duration: 60
           arrivalRate: 10
-        - duration: 5
-          arrivalRate: 0
+
         - duration: 60
           arrivalRate: 10
-        - duration: 5
-          arrivalRate: 0
+
         - duration: 60
           arrivalRate: 10
-        - duration: 5
-          arrivalRate: 0
+
         - duration: 60
           arrivalRate: 10
-        - duration: 5
-          arrivalRate: 0
+
         - duration: 60
           arrivalRate: 10
-        - duration: 5
-          arrivalRate: 0
+
         - duration: 60
           arrivalRate: 10
-        - duration: 5
-          arrivalRate: 0
+
         - duration: 60
           arrivalRate: 10
-        - duration: 5
-          arrivalRate: 0
+
         - duration: 60
           arrivalRate: 10
-        - duration: 5
-          arrivalRate: 0
+
         - duration: 60
           arrivalRate: 10
-        - duration: 5
-          arrivalRate: 0
+
         - duration: 60
           arrivalRate: 10
-        - duration: 5
-          arrivalRate: 0
+
         - duration: 60
           arrivalRate: 10
-        - duration: 5
-          arrivalRate: 0
+
 scenarios:
     - flow:
           - get:

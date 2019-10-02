@@ -1,6 +1,6 @@
 # Demo Techcon Scripts
 
-### SSH
+## SSH
 
 Node
 ```bash
@@ -19,12 +19,12 @@ Go hitter
 ssh -i "ducqhle-ec2-key-pair.pem" ec2-user@ec2-13-57-202-201.us-west-1.compute.amazonaws.com
 ```
 
-### View IP
+## View IP
 ```bash
 curl ifconfig.co
 ```
 
-### Config ENV
+## Config ENV
 Node
 ```bash
 export HOST="54.183.107.192"
@@ -34,17 +34,17 @@ Go
 export HOST="54.67.39.43"
 ```
 
-### Config HTTPD
+## Config HTTPD
 ```
 systemctl start httpd.service && systemctl enable httpd.service
 ```
 
-### Run NodeJS server
+## Run NodeJS server
 ```bash
 node /root/techcon-golang/node/index.js
 ```
 
-### Run Go Server
+## Run Go Server
 ```
 /root/index
 ```
@@ -83,7 +83,7 @@ Go
 artillery run /root/techcon-golang/scripts/config/g-readfile.yml -o /root/readfile.results.json && artillery report -o /var/www/html/g-readfile.html /root/readfile.results.json
 ```
 
-### View Report
+# View Report
 NodeJS
 ```
 http://13.52.100.250/n-hitme.html
@@ -96,7 +96,14 @@ http://13.57.202.201/g-hitme.html
 
 
 
-### Statistic
+## Statistic
+### Hit Me
+Node
 ```bash
-artillery run /root/techcon-golang/scripts/config/n-hitme.yml -o /root/readfile.results.json
+artillery run /root/techcon-golang/scripts/config/s-n-hitme.yml -o /root/readfile.results.json
+```
+
+Go
+```bash
+artillery run /root/techcon-golang/scripts/config/s-g-hitme.yml -o /root/readfile.results.json
 ```
