@@ -65,7 +65,6 @@ func sort1bilionTimes() []int16 {
 	array := []int16{3, 4, 1, 3, 5, 1, 92, 2, 4124, 424, 52, 12}
 
 	for c := 0; c < 1000000; c++ {
-
 		for i := 0; i < len(array); i++ {
 			for y := 0; y < len(array)-1; y++ {
 				if array[y+1] < array[y] {
