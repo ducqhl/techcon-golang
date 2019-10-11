@@ -54,8 +54,8 @@ func main() {
 ```bash
 go run ./keypoint/go-package/src/main.go
 ```
-
-## Feel like Dynamic Type Language
+## Go Library
+[go-search](https://go-search.org/)
 
 ### Short variable declarations   
 ```go
